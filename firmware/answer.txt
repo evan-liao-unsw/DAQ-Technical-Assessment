@@ -1,3 +1,9 @@
 Use this file to write your answer to Stage 2 of the firmware tasks.
 
 Question 1:
+CAN technology is good at handling errors, allowing devices to talk to each other easily, 
+and making sure important messages get through first. This means it can send data reliably,
+even where there's a lot of interference. Devices can share control without needing central controller, 
+making the system more flexible and reliable. Important messages, like emergency brakes in self-driving cars, 
+get priority. But, CAN isn't perfect, it can only handle limited amounts of data at a time, 
+which might be a problem for tasks needing to send a lot of data.
