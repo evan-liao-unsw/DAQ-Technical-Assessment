@@ -3,7 +3,7 @@
 This file is used to document your thoughts, approaches and research conducted across all tasks in the Technical Assessment.
 
 ## Firmware
-I followed the definition of the specification carefully but couldn't get the desired result. Then I tried different cases and found that using little endian and reversing the bitmask works. However, I don't have much experience dealing with endianness and bits, so there might be some misunderstandings of the concept, but I'm willing to dive into it at Redback and I can't wait to learn more of it.
+Initially I followed the definition of the specification carefully but couldn't get the desired result at first. So I tried different cases and found that using little endian and reversing the bitmask works and I managed to get the desired answer. However, I don't have much experience dealing with endianness and bits, so there might be some misunderstandings of the concept, but I'm willing to dive into it at Redback and I can't wait to learn more of it.
 
 ## Telemetry
 I've introduced a try-catch mechanism. This should manage any format inconsistencies coming from the data-emulator. If there’s an error, we'll know about it, but the server won't crash.
